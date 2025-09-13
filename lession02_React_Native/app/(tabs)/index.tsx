@@ -4,7 +4,7 @@ import React from "react";
 function App() {
   return (
     <View>
-      <Text>index</Text>
+      <Text>Coffee Shop</Text>
     </View>
   );
 }
