@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text StyleSheet, StyleSheet} from "react-native";
 import React from "react";
 
 function App() {
@@ -10,3 +10,4 @@ function App() {
 }
 
 export default App;
+const StyleSheet= StyleSheet.create({container:{flex:1,}})
