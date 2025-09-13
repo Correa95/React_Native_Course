@@ -3,14 +3,14 @@ import React from "react";
 
 function App() {
   return (
-    <View>
-      <Text>Coffee Shop</Text>
+    <View style={Styles.container}>
+      <Text style>Coffee Shop</Text>
     </View>
   );
 }
 
 export default App;
-const Style = StyleSheet.create({
+const Styles = StyleSheet.create({
   container:{
     flex:1,
     flexDirection: "column",
