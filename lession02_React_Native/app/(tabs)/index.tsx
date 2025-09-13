@@ -20,5 +20,7 @@ const Style = StyleSheet.create({
   text:{
     color:"white",
     fontSize:42,
+    fontWeight: "bold",
+    textAlign: "center"
   }
 })
