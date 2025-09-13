@@ -1,4 +1,4 @@
-import { View, Text StyleSheet} from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 
 function App() {
@@ -11,16 +11,14 @@ function App() {
 
 export default App;
 const Styles = StyleSheet.create({
-  container:{
-    flex:1,
+  container: {
+    flex: 1,
     flexDirection: "column",
-
-
   },
-  text:{
-    color:"white",
-    fontSize:42,
+  text: {
+    color: "white",
+    fontSize: 42,
     fontWeight: "bold",
-    textAlign: "center"
-  }
-})
+    textAlign: "center",
+  },
+});
