@@ -1,11 +1,12 @@
 import { View, Text } from "react-native";
+import React from "react";
 
-  function App() {
+function App() {
   return (
     <View>
-      <Text>Welcome to the Home Screen 🎉</Text>
+      <Text>index</Text>
     </View>
   );
 }
 
-export  app
+export default App;
