@@ -1,12 +1,9 @@
 import { View, Text } from "react-native";
-import React from "react";
 
-const index = () => {
+export default function HomeScreen() {
   return (
     <View>
-      <Text>index</Text>
+      <Text>Welcome to the Home Screen 🎉</Text>
     </View>
   );
-};
-
-export default index;
+}
