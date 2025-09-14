@@ -21,7 +21,7 @@ const Styles = StyleSheet.create({
     flex: 1,
     flexDirection: "column",
   },
-  image: { width: "100%" },
+  image: { width: "100%", height: "%" },
   text: {
     color: "white",
     fontSize: 42,
