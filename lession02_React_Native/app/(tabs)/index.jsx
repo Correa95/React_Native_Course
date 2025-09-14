@@ -4,7 +4,7 @@ import iceCoffeeImg from "@/assets/images/ice-Coffee-.webp";
 function App() {
   return (
     <View style={Styles.container}>
-      <ImageBackground source={is}>
+      <ImageBackground source={iceCoffeeImg}>
         <Text style={Styles.text}>Coffee Shop</Text>
       </ImageBackground>
     </View>
