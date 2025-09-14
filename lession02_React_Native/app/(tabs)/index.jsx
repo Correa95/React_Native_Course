@@ -33,5 +33,6 @@ const Styles = StyleSheet.create({
     fontSize: 42,
     fontWeight: "bold",
     textAlign: "center",
+    backgroundColor: "rgba(0,0,0,0.5)",
   },
 });
