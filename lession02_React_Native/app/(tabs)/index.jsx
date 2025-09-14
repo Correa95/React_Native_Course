@@ -21,7 +21,13 @@ const Styles = StyleSheet.create({
     flex: 1,
     flexDirection: "column",
   },
-  image: { width: "100%", height: "%" },
+  image: {
+    width: "100%",
+    height: "%",
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center",
+  },
   text: {
     color: "white",
     fontSize: 42,
