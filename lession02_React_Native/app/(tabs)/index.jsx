@@ -4,7 +4,11 @@ import iceCoffeeImg from "@/assets/images/ice-Coffee-.webp";
 function App() {
   return (
     <View style={Styles.container}>
-      <ImageBackground source={iceCoffeeImg}>
+      <ImageBackground
+        source={iceCoffeeImg}
+        resizeMode="cover"
+        Style={Styles.image}
+      >
         <Text style={Styles.text}>Coffee Shop</Text>
       </ImageBackground>
     </View>
@@ -17,6 +21,7 @@ const Styles = StyleSheet.create({
     flex: 1,
     flexDirection: "column",
   },
+  image: { width: "100%" },
   text: {
     color: "white",
     fontSize: 42,
