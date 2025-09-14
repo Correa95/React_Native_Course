@@ -5,7 +5,7 @@ function App() {
   return (
     <View style={Styles.container}>
       <ImageBackground
-        source={require("@/assets/images/iceCoffee.webp")}
+        source={require("@/assets/images/VietnameseIcedCoffee.jpg")}
         resizeMode="cover"
         style={Styles.image}
       >
