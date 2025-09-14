@@ -1,10 +1,12 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, ImageBackground } from "react-native";
 import React from "react";
 
 function App() {
   return (
     <View style={Styles.container}>
-      <Text style={Styles.text}>Coffee Shop</Text>
+      <ImageBackground>
+        <Text style={Styles.text}>Coffee Shop</Text>
+      </ImageBackground>
     </View>
   );
 }
