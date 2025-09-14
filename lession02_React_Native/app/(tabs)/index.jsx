@@ -1,11 +1,11 @@
 import { View, Text, StyleSheet, ImageBackground } from "react-native";
 import React from "react";
-import iceCoffeeImg from "@/assets/images/ice-Coffee-.webp";
+// import iceCoffeeImg from "@/assets/images/ice-Coffee-.webp";
 function App() {
   return (
     <View style={Styles.container}>
       <ImageBackground
-        source={iceCoffeeImg}
+        source={require("./assets/images/ice-Coffee-.webp")}
         resizeMode="cover"
         Style={Styles.image}
       >
