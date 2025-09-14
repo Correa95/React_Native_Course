@@ -7,7 +7,7 @@ function App() {
       <ImageBackground
         source={require("../../assets/images/iceCoffee.webp")}
         resizeMode="cover"
-        Style={Styles.image}
+        style={Styles.image}
       >
         <Text style={Styles.text}>Coffee Shop</Text>
       </ImageBackground>
