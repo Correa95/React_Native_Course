@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, ImageBackground } from "react-native";
 import React from "react";
-// import iceCoffeeImg from "@/assets/images/ice-Coffee-.webp";
+
 function App() {
   return (
     <View style={Styles.container}>
