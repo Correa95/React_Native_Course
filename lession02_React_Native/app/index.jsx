@@ -16,7 +16,8 @@ function App() {
         style={Styles.image}
       >
         <Text style={Styles.title}>Coffee Shop</Text>
-        <Link href="/explore" style={Styles.link}>
+
+        <Link href="/explore" style={{ marginHorizontal: "auto" }}>
           <Pressable>
             <Text>Explore</Text>
           </Pressable>
