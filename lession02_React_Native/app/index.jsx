@@ -62,8 +62,7 @@ const Styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     textAlign: "center",
-    textDecorationLine: "underline",
-    backgroundColor: "rgba(0,0,0,0.5)",
+
     padding: 4,
   },
 });
