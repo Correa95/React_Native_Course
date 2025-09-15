@@ -17,7 +17,9 @@ function App() {
       >
         <Text style={Styles.title}>Coffee Shop</Text>
         <Link href="/explore" style={Styles.link}>
-          <Pressable>Explore</Pressable>
+          <Pressable>
+            <Text>Explore</Text>
+          </Pressable>
         </Link>
       </ImageBackground>
     </View>
