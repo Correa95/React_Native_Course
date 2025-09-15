@@ -9,7 +9,7 @@ function App() {
         source={require("../assets/images/VietnameseIcedCoffee.jpg")}
         style={Styles.image}
       >
-        <Text style={Styles.text}>Coffee Shop</Text>
+        <Text style={Styles.title}>Coffee Shop</Text>
         <link href="/explore">Explore</link>
       </ImageBackground>
     </View>
