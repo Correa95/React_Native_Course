@@ -43,6 +43,6 @@ const Styles = StyleSheet.create({
     textAlign: "center",
     textDecorationLine: "underline",
     backgroundColor: "rgba(0,0,0,0.5)",
-    padding: 10,
+    padding: 4,
   },
 });
