@@ -57,4 +57,13 @@ const Styles = StyleSheet.create({
     backgroundColor: "rgba(0,0,0,0.5)",
     padding: 4,
   },
+  buttonText: {
+    color: "white",
+    fontSize: 16,
+    fontWeight: "bold",
+    textAlign: "center",
+    textDecorationLine: "underline",
+    backgroundColor: "rgba(0,0,0,0.5)",
+    padding: 4,
+  },
 });
