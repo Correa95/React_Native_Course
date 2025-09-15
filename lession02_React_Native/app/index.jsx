@@ -60,7 +60,8 @@ const Styles = StyleSheet.create({
   button: {
     height: 60,
     borderRadius: 20,
-    backgroundColor: rgba(0, 0, 0, 0.75),
+    backgroundColor: "rgba(0, 0, 0, 0.75)",
+    padding: 6,
   },
   buttonText: {
     color: "white",
