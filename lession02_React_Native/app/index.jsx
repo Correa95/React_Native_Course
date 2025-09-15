@@ -19,7 +19,7 @@ function App() {
 
         <Link href="/contact" style={{ marginHorizontal: "auto" }} asChild>
           <Pressable style={Styles.button}>
-            <Text Styles={Styles.buttonText}>Contact Us</Text>
+            <Text style={Styles.buttonText}>Contact Us</Text>
           </Pressable>
         </Link>
       </ImageBackground>
@@ -69,7 +69,6 @@ const Styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     textAlign: "center",
-
     padding: 4,
   },
 });
