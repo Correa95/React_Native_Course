@@ -18,8 +18,8 @@ function App() {
         <Text style={Styles.title}>Coffee Shop</Text>
 
         <Link href="/explore" style={{ marginHorizontal: "auto" }} asChild>
-          <Pressable>
-            <Text>Explore</Text>
+          <Pressable style={Styles.button}>
+            <Text Styles={Styles.buttonText}>Explore</Text>
           </Pressable>
         </Link>
       </ImageBackground>
