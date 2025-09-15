@@ -1,12 +1,15 @@
 import { View, Text, StyleSheet } from "react-native";
-
-export default function ExploreScreen() {
+function explore() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Welcome to the Explore Screen 🚀</Text>
-    </View>
+    <div>
+      <View style={styles.container}>
+        <Text style={styles.text}>Welcome to the Explore Screen 🚀</Text>
+      </View>
+    </div>
   );
 }
+
+export default explore;
 
 const styles = StyleSheet.create({
   container: {
