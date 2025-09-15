@@ -10,7 +10,7 @@ function App() {
         style={Styles.image}
       >
         <Text style={Styles.title}>Coffee Shop</Text>
-        <link href="/explore">Explore</link>
+        <Link href="/explore">Explore</Link>
       </ImageBackground>
     </View>
   );
