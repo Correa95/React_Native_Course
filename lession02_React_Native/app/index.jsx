@@ -35,6 +35,7 @@ const Styles = StyleSheet.create({
     textAlign: "center",
     backgroundColor: "rgba(0,0,0,0.5)",
     padding: 10,
+    marginBottom: 120,
   },
   link: {
     color: "white",
