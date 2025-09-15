@@ -1,11 +1,9 @@
 import { View, Text, StyleSheet } from "react-native";
 function explore() {
   return (
-    <div>
-      <View style={styles.container}>
-        <Text style={styles.text}>Welcome to the Explore Screen 🚀</Text>
-      </View>
-    </div>
+    <View style={styles.container}>
+      <Text style={styles.text}>Welcome to the Explore Screen 🚀</Text>
+    </View>
   );
 }
 
