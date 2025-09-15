@@ -12,7 +12,7 @@ function App() {
   return (
     <View style={Styles.container}>
       <ImageBackground
-        source={require("../assets/images/VietnameseIcedCoffee.jpg")}
+        source={require("../../assets/images/VietnameseIcedCoffee.jpg")}
         style={Styles.image}
       >
         <Text style={Styles.title}>Coffee Shop</Text>
