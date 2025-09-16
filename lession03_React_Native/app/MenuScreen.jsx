@@ -6,7 +6,7 @@ import {
   ScrollView,
   FlatList,
   View,
-  // Container,
+  Container,
   Text,
   Image,
 } from "react-native";
@@ -25,6 +25,7 @@ function MenuScreen() {
       <FlatList
         data={MENU_ITEMS}
         keyExtractor={(item) => item.id.toString()}
+        showsVerticalScrollIndicator={false}
         renderItem={({ item }) => (
           <View>
             <View>
