@@ -15,7 +15,6 @@ export default [
   Americano,
   latte,
   Cappuccino,
-  Macchiato,
   Mocha,
   flat_white,
   Cortado,
