@@ -24,7 +24,14 @@ function MenuScreen() {
       <FlatList
         data={MENU_ITEMS}
         keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => <View></View>}
+        renderItem={({ item }) => (
+          <View>
+            <View>
+              <Text></Text>
+              <Text></Text>
+            </View>
+          </View>
+        )}
       />
     </Container>
   );
