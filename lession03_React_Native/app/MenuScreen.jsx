@@ -27,9 +27,10 @@ function MenuScreen() {
         renderItem={({ item }) => (
           <View>
             <View>
-              <Text></Text>
-              <Text></Text>
+              <Text>{item.title}</Text>
+              <Text>{item.description}</Text>
             </View>
+            <Image source={MENU_IMAGES[item.id - 1]} />
           </View>
         )}
       />
