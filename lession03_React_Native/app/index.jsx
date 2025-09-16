@@ -12,16 +12,16 @@ function App() {
   return (
     <View style={Styles.container}>
       <ImageBackground
-        source={require("../assets/images/menuImage/VietnameseIcedCoffee.jpg")
+        source={require("../assets/images/menuImage/VietnameseIcedCoffee.jpg")}
         style={Styles.image}
       >
-        <Text style={Styles.title}>Coffee Shop</Text>
+        {/* <Text style={Styles.title}>Coffee Shop</Text> */}
 
-        <Link href="/contact" style={{ marginHorizontal: "auto" }} asChild>
+        {/* <Link href="/contact" style={{ marginHorizontal: "auto" }} asChild>
           <Pressable style={Styles.button}>
             <Text style={Styles.buttonText}>Contact Us</Text>
           </Pressable>
-        </Link>
+        </Link> */}
       </ImageBackground>
     </View>
   );
