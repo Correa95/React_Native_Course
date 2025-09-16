@@ -28,7 +28,7 @@ export default function RootLayout() {
         name="menu"
         options={{
           headerShown: true,
-          title: "Menu",
+          title: "menu",
           headerTitle: "Coffee Shop Menu",
         }}
       />
