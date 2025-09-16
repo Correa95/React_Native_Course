@@ -43,4 +43,11 @@ function MenuScreen() {
 export default MenuScreen;
 
 function createStyles(theme, colorScheme) {
-  return StyleSheet.create({});
+  return StyleSheet.create({
+    contentContainer:{
+      paddingTop:10,
+      paddingBottom:20,
+      paddingHorizontal:12,
+      backgroundColor: theme.background
+    }
+  });
