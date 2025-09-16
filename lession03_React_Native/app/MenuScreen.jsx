@@ -42,5 +42,5 @@ function MenuScreen() {
 
 export default MenuScreen;
 
-// function createStyles(theme, colorScheme) {
-//   return StyleSheet.create({});
+function createStyles(theme, colorScheme) {
+  return StyleSheet.create({});
