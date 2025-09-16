@@ -6,7 +6,7 @@ import {
   ScrollView,
   FlatList,
   View,
-  Container,
+  // Container,
   Text,
   Image,
 } from "react-native";
