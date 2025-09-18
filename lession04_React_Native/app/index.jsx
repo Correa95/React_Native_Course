@@ -15,7 +15,7 @@ export default function Index() {
   };
 
   const toggleTodo = () => {
-    setTodos(todos.map(todos => todos.id === id ? {...todos, completed: }));
+    setTodos(todos.map(todos => todos.id === id ? {...todos, completed: !todos.completed }));
   };
   return (
     <View
