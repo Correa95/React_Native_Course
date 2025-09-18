@@ -1,4 +1,11 @@
-import { Text, View, TextInput, Pressable, FlatList } from "react-native";
+import {
+  Text,
+  View,
+  TextInput,
+  Pressable,
+  FlatList,
+  StyleSheet,
+} from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { useState } from "react";
 import { data } from "../data/todos";
@@ -43,3 +50,15 @@ export default function Index() {
     </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    // width: "100%",
+    backgroundColor: "#212121 ",
+  },
+  inputContainer: {},
+  input: {},
+  addButton: {},
+  addButtonText: {},
+});
