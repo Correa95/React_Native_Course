@@ -13,6 +13,10 @@ export default function Index() {
       setText("");
     }
   };
+
+  const toggleTodo = () => {
+    setTodos(todos.map(todos => todos.id === id ? {...todos, completed: }));
+  };
   return (
     <View
       style={{
