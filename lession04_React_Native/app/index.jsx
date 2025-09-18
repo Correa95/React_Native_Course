@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     width: "100%",
     maxWidth: 1024,
     marginHorizontal: "auto",
-    pointerEvents,
+    pointerEvents: "auto",
   },
   input: {},
   addButton: {},
