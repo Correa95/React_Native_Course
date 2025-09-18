@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
     fontSize: 18,
     minWidth: 0,
+    color: "white",
   },
   addButton: {},
   addButtonText: {},
