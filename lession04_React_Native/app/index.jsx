@@ -9,7 +9,8 @@ import {
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { useState } from "react";
 import { data } from "../data/todos";
-export default function Index() {
+
+function Index() {
   const [todos, setTodos] = useState(data.sort((a, b) => b.id - a.id));
   const [text, setText] = useState("");
 
@@ -50,6 +51,7 @@ export default function Index() {
     </SafeAreaView>
   );
 }
+export default Index;
 
 const styles = StyleSheet.create({
   container: {
