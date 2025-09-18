@@ -38,7 +38,7 @@ function Index() {
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
-          placeholder="Add a new Todo"
+          placeholder="Add a new todo"
           placeholderTextColor="gray"
           value={Text}
           onChangeText={setText}
@@ -79,6 +79,10 @@ const styles = StyleSheet.create({
     minWidth: 0,
     color: "white",
   },
-  addButton: {},
+  addButton: {
+    backgroundColor: "white",
+    borderRadius: 5,
+    padding: 10,
+  },
   addButtonText: {},
 });
