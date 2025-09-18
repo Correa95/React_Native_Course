@@ -1,5 +1,5 @@
-import { Text, View } from "react-native";
-import { SafeAreaProvider } from "react-native-safe-area-context";
+import { Text, View, TextInput, Pressable, FlatList } from "react-native";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { useState } from "react";
 import { data } from "../data/todos";
 export default function Index() {
@@ -26,14 +26,14 @@ export default function Index() {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+    <SafeAreaView style={StyleSheet.container}>
+      <View style={StyleSheet.inputContainer}>
+        <TextInput />
+        <Pressable>
+          <Text></Text>
+        </Pressable>
+      </View>
+      <FlatList />
+    </SafeAreaView>
   );
 }
