@@ -47,7 +47,10 @@ function Index() {
           <Text style={styles.addButtonText}>Add</Text>
         </Pressable>
       </View>
-      <FlatList data={todos} />
+      <FlatList data={todos} 
+      renderItem={} 
+      keyExtractor={todo=>todo.id}
+      contentContainerStyle={{flexGrow:1}}/>
     </SafeAreaView>
   );
 }
