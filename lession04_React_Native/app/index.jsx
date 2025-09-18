@@ -26,17 +26,17 @@ export default function Index() {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
   return (
-    <SafeAreaView style={StyleSheet.container}>
-      <View style={StyleSheet.inputContainer}>
+    <SafeAreaView style={styles.container}>
+      <View style={styles.inputContainer}>
         <TextInput
-          style={StyleSheet.input}
+          style={styles.input}
           placeholder="Add a new Todo"
           placeholderTextColor="gray"
           value={Text}
           onChangeText={setText}
         />
-        <Pressable>
-          <Text></Text>
+        <Pressable onPress={addTodos} style={styles.addButton}>
+          <Text style={styles.addButtonText}>Add</Text>
         </Pressable>
       </View>
       <FlatList />
