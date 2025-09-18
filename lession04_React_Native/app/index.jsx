@@ -84,5 +84,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     padding: 10,
   },
-  addButtonText: {},
+  addButtonText: {
+    fontSize: 18,
+  },
 });
