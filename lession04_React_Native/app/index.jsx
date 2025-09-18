@@ -47,7 +47,7 @@ function Index() {
           <Text style={styles.addButtonText}>Add</Text>
         </Pressable>
       </View>
-      <FlatList />
+      <FlatList data={todos} />
     </SafeAreaView>
   );
 }
