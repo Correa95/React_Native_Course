@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     marginHorizontal: "auto",
     pointerEvents: "auto",
   },
-  input: {},
+  input: { flex: 1, borderColor: "gray" },
   addButton: {},
   addButtonText: {},
 });
