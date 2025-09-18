@@ -33,6 +33,7 @@ export default function Index() {
           placeholder="Add a new Todo"
           placeholderTextColor="gray"
           value={Text}
+          onChangeText={setText}
         />
         <Pressable>
           <Text></Text>
