@@ -40,7 +40,7 @@ function Index() {
           style={styles.input}
           placeholder="Add a new todo"
           placeholderTextColor="gray"
-          value={Text}
+          value={text}
           onChangeText={setText}
         />
         <Pressable onPress={addTodos} style={styles.addButton}>
@@ -56,7 +56,7 @@ export default Index;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#212121 ",
+    backgroundColor: "#212121",
   },
   inputContainer: {
     flexDirection: "row",
@@ -86,5 +86,6 @@ const styles = StyleSheet.create({
   },
   addButtonText: {
     fontSize: 18,
+    color: "black",
   },
 });
