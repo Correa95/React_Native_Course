@@ -74,9 +74,9 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 5,
     padding: 10,
-    marginRight:10,
-    fontSize:18,
-    minWidth:
+    marginRight: 10,
+    fontSize: 18,
+    minWidth: 0,
   },
   addButton: {},
   addButtonText: {},
