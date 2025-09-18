@@ -28,7 +28,12 @@ export default function Index() {
   return (
     <SafeAreaView style={StyleSheet.container}>
       <View style={StyleSheet.inputContainer}>
-        <TextInput />
+        <TextInput
+          style={StyleSheet.input}
+          placeholder="Add a new Todo"
+          placeholderTextColor="gray"
+          value={Text}
+        />
         <Pressable>
           <Text></Text>
         </Pressable>
