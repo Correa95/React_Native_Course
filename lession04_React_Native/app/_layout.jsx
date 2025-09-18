@@ -5,7 +5,7 @@ function _layout() {
   return (
     <SafeAreaProvider>
       <Stack>
-        <Stack.Screen name="index" />
+        <Stack.Screen name="index" options={{ headerShown: false }} />
       </Stack>
     </SafeAreaProvider>
   );
