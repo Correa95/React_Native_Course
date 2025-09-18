@@ -1,7 +1,17 @@
 import { Text, View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
-
+import { useState } from "react";
+import { data } from "../data/todos";
 export default function Index() {
+  const [todos, setTodos] = useState(data.sort((a, b) => b.id - a.id));
+  const [text, setText] = useState("");
+
+  const addTodos = () => {
+    if (text.trim()) {
+      const newId = todos.length > 0 ? todos[0].id + 1 : 1;
+      setTodos([{ id: newId, title: text, completed: false }]);
+    }
+  };
   return (
     <View
       style={{
