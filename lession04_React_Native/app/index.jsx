@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     maxWidth: 1024,
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-between",
     gap: 4,
     padding: 10,
     borderBottomColor: "gray",
