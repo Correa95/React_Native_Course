@@ -133,5 +133,6 @@ const styles = StyleSheet.create({
   },
   completedText: {
     textDecorationLine: "line-through",
+    color: "gray",
   },
 });
