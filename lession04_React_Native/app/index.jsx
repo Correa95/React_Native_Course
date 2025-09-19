@@ -114,6 +114,7 @@ const styles = StyleSheet.create({
     color: "black",
   },
   todoItem: {
+    width: "100%",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
@@ -121,6 +122,5 @@ const styles = StyleSheet.create({
     padding: 10,
     borderBottomColor: "gray",
     borderBottomWidth: 1,
-    width: "100%",
   },
 });
