@@ -120,5 +120,7 @@ const styles = StyleSheet.create({
     gap: 4,
     padding: 10,
     borderBottomColor: "gray",
+    borderBottomWidth: 1,
+    width: "100%",
   },
 });
