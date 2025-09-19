@@ -115,6 +115,7 @@ const styles = StyleSheet.create({
   },
   todoItem: {
     width: "100%",
+    maxWidth: 1024,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
