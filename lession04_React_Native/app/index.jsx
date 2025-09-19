@@ -119,5 +119,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     gap: 4,
     padding: 10,
+    borderBottomColor: "gray",
   },
 });
