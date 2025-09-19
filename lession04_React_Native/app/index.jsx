@@ -123,5 +123,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderBottomColor: "gray",
     borderBottomWidth: 1,
+    marginHorizontal: "auto",
+    pointerEvents: "auto",
   },
 });
