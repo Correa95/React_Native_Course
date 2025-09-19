@@ -113,4 +113,10 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: "black",
   },
+  todoItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 4,
+  },
 });
