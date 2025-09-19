@@ -126,4 +126,10 @@ const styles = StyleSheet.create({
     marginHorizontal: "auto",
     pointerEvents: "auto",
   },
+  todoText: {
+    flex: 1,
+    fontSize: 18,
+    color: "white",
+  },
+  completedText: "",
 });
