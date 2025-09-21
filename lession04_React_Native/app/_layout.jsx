@@ -1,14 +1,14 @@
-import { Stack } from "expo-router";
-import { SafeAreaProvider } from "react-native-safe-area-context";
+// import { Stack } from "expo-router";
+// import { SafeAreaProvider } from "react-native-safe-area-context";
 
-function _layout() {
-  return (
-    <SafeAreaProvider>
-      <Stack>
-        <Stack.Screen name="index" options={{ headerShown: false }} />
-      </Stack>
-    </SafeAreaProvider>
-  );
-}
+// function _layout() {
+//   return (
+//     <SafeAreaProvider>
+//       <Stack>
+//         <Stack.Screen name="index" options={{ headerShown: false }} />
+//       </Stack>
+//     </SafeAreaProvider>
+//   );
+// }
 
-export default _layout;
+// export default _layout;
