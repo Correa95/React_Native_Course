@@ -13,16 +13,16 @@ export const Colors = {
   light: {
     text: "#11181C",
     background: "#fff",
-    HeaderBackground: "rgb(1,1,1)",
+    HeaderBackground: "rgb(242,240,242)",
     tint: tintColorLight,
     icon: "#687076",
     tabIconDefault: "#c68e17",
     tabIconSelected: tintColorLight,
   },
   dark: {
-    HeaderBackground: "rgb(242,240,242)",
     text: "#ECEDEE",
     background: "#151718",
+    HeaderBackground: "rgb(1,1,1)",
     tint: tintColorDark,
     icon: "#9BA1A6",
     tabIconDefault: "#9BA1A6",

@@ -34,7 +34,7 @@ function TabLayout() {
           title: "Contact Us",
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon
-              name={focused ? "code-slash" : "code-slash-outline"}
+              name={focused ? "people-circle" : "people-circle-outline"}
               color={color}
             />
           ),
