@@ -136,7 +136,7 @@ function createStyles(theme, colorScheme) {
       fontSize: 18,
       fontFamily: "Inter_500Medium",
       minWidth: 0,
-      color: "white",
+      color: theme.text,
     },
     addButton: {
       backgroundColor: "white",
