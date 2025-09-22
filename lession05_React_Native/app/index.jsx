@@ -79,7 +79,25 @@ function Index() {
             setColorScheme(colorScheme === "light" ? "dark" : "light")
           }
           style={{ marginLeft: 10 }}
-        ></Pressable>
+        >
+          {colorScheme === "dark" ? (
+            <Octicons
+              name="moon"
+              size={36}
+              color={theme.text}
+              selectable={undefined}
+              width={{ width: 36 }}
+            />
+          ) : (
+            <Octicons
+              name="sun"
+              size={36}
+              color={theme.text}
+              selectable={undefined}
+              width={{ width: 36 }}
+            />
+          )}
+        </Pressable>
       </View>
       <FlatList
         data={todos}
