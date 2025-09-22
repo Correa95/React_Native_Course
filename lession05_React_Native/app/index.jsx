@@ -164,7 +164,7 @@ function createStyles(theme, colorScheme) {
       flex: 1,
       fontFamily: "Inter_500Medium",
       fontSize: 18,
-      color: "white",
+      color: theme.text,
     },
     completedText: {
       textDecorationLine: "line-through",
