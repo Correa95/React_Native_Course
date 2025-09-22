@@ -110,63 +110,65 @@ function Index() {
 }
 export default Index;
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#212121",
-  },
-  inputContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginBottom: 10,
-    padding: 10,
-    width: "100%",
-    maxWidth: 1024,
-    marginHorizontal: "auto",
-    pointerEvents: "auto",
-  },
-  input: {
-    flex: 1,
-    borderColor: "gray",
-    borderWidth: 1,
-    borderRadius: 5,
-    padding: 10,
-    marginRight: 10,
-    fontSize: 18,
-    fontFamily: "Inter_500Medium",
-    minWidth: 0,
-    color: "white",
-  },
-  addButton: {
-    backgroundColor: "white",
-    borderRadius: 5,
-    padding: 10,
-  },
-  addButtonText: {
-    fontSize: 18,
-    color: "black",
-  },
-  todoItem: {
-    width: "100%",
-    maxWidth: 1024,
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-    gap: 4,
-    padding: 10,
-    borderBottomColor: "gray",
-    borderBottomWidth: 1,
-    marginHorizontal: "auto",
-    pointerEvents: "auto",
-  },
-  todoText: {
-    flex: 1,
-    fontFamily: "Inter_500Medium",
-    fontSize: 18,
-    color: "white",
-  },
-  completedText: {
-    textDecorationLine: "line-through",
-    color: "gray",
-  },
-});
+function createStyles(theme, colorScheme) {
+  return StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: theme.background,
+    },
+    inputContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+      marginBottom: 10,
+      padding: 10,
+      width: "100%",
+      maxWidth: 1024,
+      marginHorizontal: "auto",
+      pointerEvents: "auto",
+    },
+    input: {
+      flex: 1,
+      borderColor: "gray",
+      borderWidth: 1,
+      borderRadius: 5,
+      padding: 10,
+      marginRight: 10,
+      fontSize: 18,
+      fontFamily: "Inter_500Medium",
+      minWidth: 0,
+      color: "white",
+    },
+    addButton: {
+      backgroundColor: "white",
+      borderRadius: 5,
+      padding: 10,
+    },
+    addButtonText: {
+      fontSize: 18,
+      color: "black",
+    },
+    todoItem: {
+      width: "100%",
+      maxWidth: 1024,
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+      gap: 4,
+      padding: 10,
+      borderBottomColor: "gray",
+      borderBottomWidth: 1,
+      marginHorizontal: "auto",
+      pointerEvents: "auto",
+    },
+    todoText: {
+      flex: 1,
+      fontFamily: "Inter_500Medium",
+      fontSize: 18,
+      color: "white",
+    },
+    completedText: {
+      textDecorationLine: "line-through",
+      color: "gray",
+    },
+  });
+}
