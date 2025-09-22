@@ -4,5 +4,5 @@ import { colors } from "../constants/theme";
 
 const ThemeContext = createContext({});
 const ThemeProvider = ({ Children }) => {
-  const [colorScheme, , setColorScheme] = useState();
+  const [colorScheme, , setColorScheme] = useState(Appearance.getColorScheme());
 };
