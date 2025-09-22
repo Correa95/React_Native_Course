@@ -134,6 +134,7 @@ const styles = StyleSheet.create({
   },
   todoText: {
     flex: 1,
+    fontFamily: "Inter_500Medium",
     fontSize: 18,
     color: "white",
   },
