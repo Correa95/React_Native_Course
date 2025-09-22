@@ -139,13 +139,13 @@ function createStyles(theme, colorScheme) {
       color: theme.text,
     },
     addButton: {
-      backgroundColor: "white",
+      backgroundColor: theme.button,
       borderRadius: 5,
       padding: 10,
     },
     addButtonText: {
       fontSize: 18,
-      color: "black",
+      color: colorScheme === "dart" ? "black" : "white",
     },
     todoItem: {
       width: "100%",
