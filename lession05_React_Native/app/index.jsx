@@ -22,6 +22,7 @@ function Index() {
   if (!loaded && !error) {
     return null;
   }
+  const styles = createStyles(theme, colorScheme);
   const { colorScheme, setColorScheme, theme } = useContext(ThemeContext);
   const addTodos = () => {
     if (text.trim()) {
