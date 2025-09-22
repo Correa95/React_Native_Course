@@ -8,7 +8,8 @@ import {
 } from "react-native";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { ThemeContext } from "@react-navigation/native";
 import { data } from "../data/todos";
 import { useFonts, Inter_500Medium } from "@expo-google-fonts/inter";
 function Index() {
@@ -20,6 +21,7 @@ function Index() {
   if (!loaded && !error) {
     return null;
   }
+  const { colorScheme, setColorScheme, theme } = useContext(ThemeContext);
   const addTodos = () => {
     if (text.trim()) {
       const newId = todos.length > 0 ? todos[0].id + 1 : 1;
