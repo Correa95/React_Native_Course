@@ -5,6 +5,7 @@ export const Colors = {
     text: "#11181C",
     background: "#fff",
     icon: "#687076",
+    button: "royalblue",
   },
   dark: {
     text: "#ECEDEE",
