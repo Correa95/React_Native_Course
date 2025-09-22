@@ -14,7 +14,9 @@ import { useFonts, Inter_500Medium } from "@expo-google-fonts/inter";
 function Index() {
   const [todos, setTodos] = useState(data.sort((a, b) => b.id - a.id));
   const [text, setText] = useState("");
-
+  const [loaded, error] = useState({
+    Inter_500Medium,
+  });
   const addTodos = () => {
     if (text.trim()) {
       const newId = todos.length > 0 ? todos[0].id + 1 : 1;
