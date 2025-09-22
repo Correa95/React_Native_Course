@@ -12,6 +12,7 @@ import { useState, useContext } from "react";
 import { ThemeContext } from "@react-navigation/native";
 import { data } from "../data/todos";
 import { useFonts, Inter_500Medium } from "@expo-google-fonts/inter";
+import { Octicons } from "@expo/vector-icons";
 function Index() {
   const [todos, setTodos] = useState(data.sort((a, b) => b.id - a.id));
   const [text, setText] = useState("");
@@ -73,6 +74,7 @@ function Index() {
         <Pressable onPress={addTodos} style={styles.addButton}>
           <Text style={styles.addButtonText}>Add</Text>
         </Pressable>
+        <Pressable onPress={()=>setColorScheme()} style={}></Pressable>
       </View>
       <FlatList
         data={todos}
