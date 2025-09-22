@@ -74,7 +74,12 @@ function Index() {
         <Pressable onPress={addTodos} style={styles.addButton}>
           <Text style={styles.addButtonText}>Add</Text>
         </Pressable>
-        <Pressable onPress={()=>setColorScheme()} style={}></Pressable>
+        <Pressable
+          onPress={() =>
+            setColorScheme(colorScheme === "light" ? "dark" : "light")
+          }
+          style={{ marginLeft: 10 }}
+        ></Pressable>
       </View>
       <FlatList
         data={todos}
