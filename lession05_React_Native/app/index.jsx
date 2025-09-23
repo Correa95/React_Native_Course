@@ -19,7 +19,7 @@ import { Octicons } from "@expo/vector-icons";
 function Index() {
   const { colorScheme, setColorScheme, theme } = useContext(ThemeContext);
   const styles = createStyles(theme, colorScheme);
-  const [todos, setTodos] = useState(data.sort((a, b) => b.id - a.id));
+  const [todos, setTodos] = useState(data);
   const [text, setText] = useState("");
   const [loaded, error] = useFonts({
     Inter_500Medium,
