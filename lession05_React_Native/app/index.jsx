@@ -24,7 +24,12 @@ function Index() {
   const [loaded, error] = useFonts({
     Inter_500Medium,
   });
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+      } catch (error) {}
+    };
+  }, []);
   if (!loaded && !error) {
     return null;
   }
