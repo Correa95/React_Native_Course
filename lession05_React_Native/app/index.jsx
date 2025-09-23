@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import ThemeContext from "../context/ThemeContext";
 import { data } from "../data/todos";
 import { useFonts, Inter_500Medium } from "@expo-google-fonts/inter";
@@ -24,6 +24,7 @@ function Index() {
   const [loaded, error] = useFonts({
     Inter_500Medium,
   });
+  useEffect(() => {}, []);
   if (!loaded && !error) {
     return null;
   }
