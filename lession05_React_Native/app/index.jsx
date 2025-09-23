@@ -20,7 +20,7 @@ function Index() {
   const styles = createStyles(theme, colorScheme);
   const [todos, setTodos] = useState(data.sort((a, b) => b.id - a.id));
   const [text, setText] = useState("");
-  const [loaded, error] = useState({
+  const [loaded, error] = useFonts({
     Inter_500Medium,
   });
   if (!loaded && !error) {
