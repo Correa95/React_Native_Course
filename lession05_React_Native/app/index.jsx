@@ -9,7 +9,7 @@ import {
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useState, useContext } from "react";
-import { ThemeContext } from "../context/ThemeContext";
+import ThemeContext from "../context/ThemeContext";
 import { data } from "../data/todos";
 import { useFonts, Inter_500Medium } from "@expo-google-fonts/inter";
 import Animated, { LinearTransition } from "react-native-reanimated";
