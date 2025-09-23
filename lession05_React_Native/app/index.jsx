@@ -31,6 +31,8 @@ function Index() {
         const storageTodo = jsonValue != null ? JSON.parse(jsonValue) : null;
         if (storageTodo && storageTodo.length) {
           setTodos(storageTodo.sort((a, b) => b.id - a.id));
+        } else {
+          setTodos(data.sort((a, b) => b.id - a.id));
         }
       } catch (error) {
         console.error(error);
