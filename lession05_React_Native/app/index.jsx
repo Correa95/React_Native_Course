@@ -44,6 +44,7 @@ function Index() {
     const storeData = async () => {
       try {
         const jsonValue = JSON.stringify(todos);
+        await AsyncStorage.setItem(jsonValue);
       } catch (error) {
         console.error(error);
       }
