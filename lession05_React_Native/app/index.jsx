@@ -40,7 +40,14 @@ function Index() {
     };
     fetchData();
   }, []);
-  useEffect(() => {}, [todos]);
+  useEffect(() => {
+    const storeData = async () => {
+      try {
+      } catch (error) {
+        console.error(error);
+      }
+    };
+  }, [todos]);
   if (!loaded && !error) {
     return null;
   }
