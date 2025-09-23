@@ -107,6 +107,7 @@ function Index() {
         renderItem={renderItem}
         keyExtractor={(todo) => todo.id}
         contentContainerStyle={{ flexGrow: 1 }}
+        itemLayoutAnimation={LinearTransition}
       />
     </SafeAreaView>
   );
