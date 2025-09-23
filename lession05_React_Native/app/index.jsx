@@ -40,7 +40,7 @@ function Index() {
     };
     fetchData();
   }, []);
-  useEffect(() => {}, []);
+  useEffect(() => {}, [todos]);
   if (!loaded && !error) {
     return null;
   }
