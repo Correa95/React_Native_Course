@@ -108,6 +108,7 @@ function Index() {
         keyExtractor={(todo) => todo.id}
         contentContainerStyle={{ flexGrow: 1 }}
         itemLayoutAnimation={LinearTransition}
+        keyboardDismissMode="on-drag"
       />
     </SafeAreaView>
   );
