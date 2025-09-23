@@ -14,6 +14,7 @@ import { data } from "../data/todos";
 import { useFonts, Inter_500Medium } from "@expo-google-fonts/inter";
 import Animated, { LinearTransition } from "react-native-reanimated";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { StatusBar } from "expo-status-bar";
 import { Octicons } from "@expo/vector-icons";
 
 function Index() {
