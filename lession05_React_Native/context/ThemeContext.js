@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import { Appearance } from "react-native";
-import { Colors } from "../constants/theme.ts";
+import { Colors } from "../constants/theme";
 
 const ThemeContext = createContext({});
 
