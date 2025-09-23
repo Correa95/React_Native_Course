@@ -15,8 +15,8 @@ import { useFonts, Inter_500Medium } from "@expo-google-fonts/inter";
 import { Octicons } from "@expo/vector-icons";
 
 function Index() {
-  const styles = createStyles(theme, colorScheme);
   const { colorScheme, setColorScheme, theme } = useContext(ThemeContext);
+  const styles = createStyles(theme, colorScheme);
   const [todos, setTodos] = useState(data.sort((a, b) => b.id - a.id));
   const [text, setText] = useState("");
   const [loaded, error] = useState({

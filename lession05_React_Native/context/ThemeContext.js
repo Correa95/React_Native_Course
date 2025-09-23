@@ -1,14 +1,16 @@
-import { Children, createContext, useState } from "react";
+import { createContext, useState } from "react";
 import { Appearance } from "react-native";
-import { colors } from "../constants/theme";
+import { Colors } from "../constants/theme.ts";
 
 const ThemeContext = createContext({});
-const ThemeProvider = ({ Children }) => {
-  const [colorScheme, , setColorScheme] = useState(Appearance.getColorScheme());
-  const theme = colorScheme === "dark" ? colors.dark : colors.light;
+
+export const ThemeProvider = ({ children }) => {
+  const [colorScheme, setColorScheme] = useState(Appearance.getColorScheme());
+  const theme = colorScheme === "dark" ? Colors.dark : Colors.light;
+
   return (
     <ThemeContext.Provider value={{ theme, setColorScheme, colorScheme }}>
-      {Children}
+      {children}
     </ThemeContext.Provider>
   );
 };
