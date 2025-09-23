@@ -30,7 +30,7 @@ function Index() {
         const jsonValue = await AsyncStorage.getItem("TodoApp");
         const storageTodo = jsonValue != null ? JSON.parse(jsonValue) : null;
         if (storageTodo && storageTodo.length) {
-          setTodos(storageTodo);
+          setTodos(storageTodo.sort((a, b) => b.id - a.id));
         }
       } catch (error) {
         console.error(error);
