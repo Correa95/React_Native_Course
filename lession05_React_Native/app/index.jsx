@@ -27,7 +27,9 @@ function Index() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-      } catch (error) {}
+      } catch (error) {
+        console.error(error);
+      }
     };
   }, []);
   if (!loaded && !error) {
