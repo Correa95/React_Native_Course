@@ -9,7 +9,7 @@ import {
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { useState, useContext } from "react";
-import { ThemeContext } from "@react-navigation/native";
+import { ThemeContext } from "../context/ThemeContext";
 import { data } from "../data/todos";
 import { useFonts, Inter_500Medium } from "@expo-google-fonts/inter";
 import { Octicons } from "@expo/vector-icons";
