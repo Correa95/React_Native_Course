@@ -13,7 +13,10 @@ import { ThemeContext } from "@react-navigation/native";
 import { data } from "../data/todos";
 import { useFonts, Inter_500Medium } from "@expo-google-fonts/inter";
 import { Octicons } from "@expo/vector-icons";
+
 function Index() {
+  const styles = createStyles(theme, colorScheme);
+  const { colorScheme, setColorScheme, theme } = useContext(ThemeContext);
   const [todos, setTodos] = useState(data.sort((a, b) => b.id - a.id));
   const [text, setText] = useState("");
   const [loaded, error] = useState({
@@ -22,8 +25,6 @@ function Index() {
   if (!loaded && !error) {
     return null;
   }
-  const styles = createStyles(theme, colorScheme);
-  const { colorScheme, setColorScheme, theme } = useContext(ThemeContext);
   const addTodos = () => {
     if (text.trim()) {
       const newId = todos.length > 0 ? todos[0].id + 1 : 1;
