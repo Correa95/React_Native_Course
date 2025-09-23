@@ -27,7 +27,8 @@ function Index() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const jsonValue = await AsyncStorage.getItem("");
+        const jsonValue = await AsyncStorage.getItem("TodoApp");
+        const storageTodo = jsonValue != null ? JSON.parse(jsonValue) : null;
       } catch (error) {
         console.error(error);
       }
