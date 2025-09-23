@@ -27,6 +27,7 @@ function Index() {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        const jsonValue = await AsyncStorage.getItem("");
       } catch (error) {
         console.error(error);
       }
