@@ -44,11 +44,12 @@ function Index() {
     const storeData = async () => {
       try {
         const jsonValue = JSON.stringify(todos);
-        await AsyncStorage.setItem(jsonValue);
+        await AsyncStorage.setItem("TodoApp", jsonValue);
       } catch (error) {
         console.error(error);
       }
     };
+    storeData();
   }, [todos]);
   if (!loaded && !error) {
     return null;
