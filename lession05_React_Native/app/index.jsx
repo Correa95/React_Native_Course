@@ -38,6 +38,7 @@ function Index() {
         console.error(error);
       }
     };
+    fetchData();
   }, []);
   if (!loaded && !error) {
     return null;
