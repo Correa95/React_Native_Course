@@ -43,6 +43,7 @@ function Index() {
   useEffect(() => {
     const storeData = async () => {
       try {
+        const jsonValue = JSON.stringify(todos);
       } catch (error) {
         console.error(error);
       }
